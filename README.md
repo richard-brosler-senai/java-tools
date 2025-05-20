@@ -2,7 +2,7 @@
 Este repositório tem a finalidade de apoiar os alunos do curso de Java Fundamentals e Java Foundations com comandos e sites utilizados no curso.
 # Sites importantes:
 ### Oracle Academy
-https://academy.oracle.com/
+https://academy.oracle.com/ opção Student Hub
 ### Github
 https://github.com/
 # Comandos importantes do GIT
