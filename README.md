@@ -5,6 +5,8 @@ Este repositório tem a finalidade de apoiar os alunos do curso de Java Fundamen
 https://academy.oracle.com/ opção Student Hub
 ### Github
 https://github.com/
+### Download programa Git
+https://git-scm.com/downloads
 # Comandos importantes do GIT
 ### Configurar usuário local
 ```bash
