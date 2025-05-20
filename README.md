@@ -7,19 +7,33 @@ https://academy.oracle.com/
 https://github.com/
 # Comandos importantes do GIT
 ### Configurar usuário local
-<code>git config --global user.name "Seu nome"</code>
+```bash
+git config --global user.name "Seu nome"
+```
 ### Configurar e-mail do usuário local
-<code>git config --global user.email "seu.email@dominio.com.br"</code>
+```bash
+git config --global user.email "seu.email@dominio.com.br"
+```
 ### Clonar um repositório
-<code>git clone <endereço do repositório.git> diretorio_destino</code>
+```bash
+git clone <endereço do repositório.git> diretorio_destino
+```
 ### Baixar alterações do Servidor Git para o local
-<code>git pull</code>
+```bash
+git pull
+```
 ### Adicionar itens ao versionamento
-<code>git add .</code>
+```bash
+git add .
+```
 ### Fechar pacote de versionamento
-<code>git commit -m "Colocar um comentário sobre a versão"</code>
+```bash
+git commit -m "Colocar um comentário sobre a versão"
+```
 ### Subir alterações do local para o Servidor Git
-<code>git push</code>
+```bash
+git push
+```
 # Sequência diária da nossa aula:
 * Configurar o <a href="#configurar-usuário-local">`usuário local do git`</a> e o <a href="#configurar-e-mail-do-usuário-local">`email do usuário local do git`</a> **no início da aula**
 * Efetuar o <a href="#clonar-um-repositório">`clone do seu repositório`</a> para a pasta c:\n25-java1-01 **no início da aula**
