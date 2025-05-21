@@ -23,7 +23,7 @@ echo .
 echo Essas informações estão corretas?
 set /p confirma=Tecle S para SIM ou qualquer outra tecla para Não: 
 if NOT "%confirma%" == "S" goto inicio
-curl -X POST -H "Content-type: application/json" --data "{\"nome\": \"%username%\", \"email\": \"%email%\", \"repositorio\": \"%endereco%\"}" https://senai701.brosler.pro.br/ws-patrimonio/api/diario-fic/%chave%
+curl -s -X POST -H "Content-type: application/json" --data "{\"nome\": \"%username%\", \"email\": \"%email%\", \"repositorio\": \"%endereco%\"}" https://senai701.brosler.pro.br/ws-patrimonio/api/diario-fic/%chave%
 echo Executando comandos do git...
 "%dirgit%\bin\git.exe" config --global user.name "%username%"
 "%dirgit%\bin\git.exe" config --global user.email "%email%"
@@ -32,6 +32,9 @@ cd %USERPROFILE%\Documents\
 echo Clonando o repositório remoto...
 "%dirgit%\bin\git.exe" clone %endereco% %turma%
 :fim
-if NOT exist %USERPROFILE%\Documents\%turma%\subir.bat curl https://raw.githubusercontent.com/richard-brosler-senai/java-tools/refs/heads/master/subir.bat -0 > %USERPROFILE%\Documents\%turma%\subir.bat
+if NOT exist %USERPROFILE%\Documents\%turma%\subir.bat (
+curl -s -o %USERPROFILE%\Documents\%turma%\subir.bat https://raw.githubusercontent.com/richard-brosler-senai/java-tools/refs/heads/master/subir.bat
+powershell -Command "(Get-Content %USERPROFILE%\Documents\%turma%\subir.bat) | Set-Content -NoNewline -Encoding ASCII %USERPROFILE%\Documents\%turma%\subir.bat"
+)
 echo Abrindo o git-bash no diretório do projeto...
 start "" "%dirgit%\git-bash.exe" "--cd=%USERPROFILE%\Documents\%turma%\."
