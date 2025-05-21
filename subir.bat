@@ -7,6 +7,7 @@ set turma=n25-java1-01
 REM set dirgit=%APPDATA%\..\Local\Programs\Git
 set dirgit=D:\Program Files\Git
 set /p comentario=Digite o comentário para fechar a versão de dados: 
+@echo on
 cd %USERPROFILE%\Documents\%turma%\
 echo Adicionando arquivos à versão...
 "%dirgit%\bin\git.exe" add .
