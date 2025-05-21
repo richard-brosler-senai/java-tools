@@ -6,7 +6,7 @@ REM Version: 2025-05-20
 set dirgit=%APPDATA%\..\Local\Programs\Git
 set turma=n25-java1-01
 echo Abrindo as páginas para o uso diário...
-start "" chrome.exe "https://github.com/richard-brosler-senai/java-tools" "https://github.com" "https://academy.oracle.com/"
+start "" chrome.exe "https://github.com/richard-brosler-senai/java-tools" "https://github.com" "https://academy.oracle.com/" ""
 if exist %USERPROFILE%\Documents\%turma%\ goto fim
 :inicio
 echo Vamos configurar o Git nesse momento...
@@ -30,5 +30,6 @@ cd %USERPROFILE%\Documents\
 echo Clonando o repositório remoto...
 "%dirgit%\bin\git.exe" clone %endereco% %turma%
 :fim
+if NOT exist %USERPROFILE%\Documents\%turma%\subir.bat curl https://raw.githubusercontent.com/richard-brosler-senai/java-tools/refs/heads/master/subir.bat -0 > %USERPROFILE%\Documents\%turma%\subir.bat
 echo Abrindo o git-bash no diretório do projeto...
 start "%dirgit%\git-bash.exe" "--cd=%USERPROFILE%\Documents\%turma%\."
