@@ -3,7 +3,8 @@ chcp 65001
 REM Batch de apoio aos Alunos de Java Fundamentas - Senai Bauru
 REM Author: Richard Brosler
 REM Version: 2025-05-20
-set dirgit=%APPDATA%\..\Local\Programs\Git
+REM set dirgit=%APPDATA%\..\Local\Programs\Git
+set dirgit=D:\Program Files\Git
 set turma=n25-java1-01
 if exist %USERPROFILE%\Documents\%turma%\ goto fim
 :inicio
@@ -23,4 +24,5 @@ if NOT "%confirma%" == "S" goto inicio
 cd %USERPROFILE%\Documents\
 "%dirgit%\bin\git.exe" clone %endereco% %turma%
 :fim
+start "" chrome.exe "https://github.com/richard-brosler-senai/java-tools" "https://github.com" "https://academy.oracle.com/"
 call "%dirgit%\git-bash.exe" "--cd=%USERPROFILE%\Documents\%turma%\."
