@@ -17,6 +17,7 @@
 | LeftEye      | Olho esquerdo        |
 | RightEye     | Olho direito         |
 | Eyebrow      | Sobrancelha          |
+| Eyelid       | Pálpebra             |
 | Ear          | Orelha               |
 | Hair         | Cabelo               |
 | Forehead     | Testa                |
