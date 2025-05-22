@@ -35,6 +35,7 @@
 | Abdomen      | Abdômen / Barriga     |
 | Hip          | Quadril               |
 | Pelvis       | Pelve                 |
+| Clavicle     | Clavícula             |
 
 ---
 
