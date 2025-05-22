@@ -34,7 +34,7 @@ echo Clonando o repositório remoto...
 :fim
 if NOT exist %USERPROFILE%\Documents\%turma%\subir.bat (
 curl -s -o %USERPROFILE%\Documents\%turma%\subir.bat https://raw.githubusercontent.com/richard-brosler-senai/java-tools/refs/heads/master/subir.bat
-powershell -Command "(Get-Content %USERPROFILE%\Documents\%turma%\subir.bat) | Set-Content -NoNewline -Encoding ASCII %USERPROFILE%\Documents\%turma%\subir.bat"
+powershell -Command "(Get-Content -Raw -Path %USERPROFILE%\Documents\%turma%\subir.bat) -replace '\n',\"`r`n\" | Set-Content -NoNewline %USERPROFILE%\Documents\%turma%\subir.bat"
 )
 echo Abrindo o git-bash no diretório do projeto...
 start "" "%dirgit%\git-bash.exe" "--cd=%USERPROFILE%\Documents\%turma%\."
