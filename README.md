@@ -1,5 +1,9 @@
 # java-tools
 Este repositório tem a finalidade de apoiar os alunos do curso de Java Fundamentals e Java Foundations com comandos e sites utilizados no curso.
+# Aplicativo de Apoio
+### Download do aplicativo de Apoio
+O aplicativo de apoio mudou, agora você pode baixar ele por esse endereço:  
+https://senai701.brosler.pro.br/release/SetupApoio.exe
 # Sites importantes:
 ### Oracle Academy
 https://academy.oracle.com/ opção Student Hub
