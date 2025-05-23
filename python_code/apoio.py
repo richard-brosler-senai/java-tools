@@ -14,15 +14,11 @@ def menu():
     chave = os.environ.get('CHAVEAPP')
     senha = os.environ.get('SENHAAPP')
     turma = "n25-java1-01"
-    chromePath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
     dirgit= f"{os.environ.get('APPDATA')}\\..\\Local\\Programs\\Git"
     if not os.path.exists(dirgit):
         dirgit = f"{os.environ.get('ProgramFiles')}\\git"
         if not os.path.exists(dirgit):
             dirgit = "D:\\Program Files\\git"
-    # Chamando o navegador com os links
-    if os.path.exists(chromePath):
-        subprocess.run([chromePath,"https://github.com/richard-brosler-senai/java-tools","https://github.com","https://academy.oracle.com/"])
     # Verificando se o diretório existe
     diretorio = f"{os.environ.get('USERPROFILE')}\\Documents\\{turma}"
     confirmar = os.path.isdir(diretorio)
@@ -59,8 +55,5 @@ def menu():
             conteudo = conteudo.replace("\n", "\r\n")
             with open(diretorio + "\\subir.bat", "w", newline='',encoding='utf-8') as file:
                 file.write(conteudo)
-    # Executando o git bash
-    subprocess.Popen([f"{dirgit}\\git-bash.exe", f"--cd={diretorio}"], shell=True,
-                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 if __name__ == "__main__":
     menu()
