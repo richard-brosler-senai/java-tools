@@ -35,7 +35,7 @@ ChangesAssociations=yes
 DisableProgramGroupPage=yes
 ; Remove the following line to run in administrative install mode (install for all users).
 PrivilegesRequired=lowest
-OutputDir=C:\java-tools\python_code\dist
+OutputDir=C:\Projetos\java-tools\python_code\dist
 OutputBaseFilename=SetupApoio
 SolidCompression=yes
 WizardStyle=modern
@@ -47,8 +47,8 @@ Name: "brazilianportuguese"; MessagesFile: "compiler:Languages\BrazilianPortugue
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\java-tools\python_code\dist\apoio\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\java-tools\python_code\dist\apoio\_internal\*"; DestDir: "{app}\_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Projetos\java-tools\python_code\dist\apoio\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Projetos\java-tools\python_code\dist\apoio\_internal\*"; DestDir: "{app}\_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
