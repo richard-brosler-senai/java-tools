@@ -44,7 +44,7 @@ def menu():
                 "email": email,
                 "maquina": node()
             }, headers={"Content-Type": "application/json"})
-            print(ret.json())
+            # print(ret.json())
             # Configurando o git
             subprocess.run([f"{dirgit}\\bin\\git.exe", "config", "--global", "user.name", f'"{nome}"'])
             subprocess.run([f"{dirgit}\\bin\\git.exe", "config", "--global", "user.email", f'"{email}"'])
