@@ -72,3 +72,5 @@
 | Leg         | Perna (geral)              |
 
 ---
+# Ações
+![Ações](acoes_roll_turn.jpg)
