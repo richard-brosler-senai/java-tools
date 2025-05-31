@@ -73,4 +73,4 @@
 
 ---
 # Ações
-![Ações](acoes_roll_turn.jpg)
+![Ações](imagens/acoes_roll_turn.jpg)
