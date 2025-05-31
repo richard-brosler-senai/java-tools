@@ -2,6 +2,7 @@ import questionary, re, requests, subprocess, os
 from click import clear
 from urllib.request import urlopen
 from dotenv import load_dotenv
+from platform import node
 load_dotenv(override=True)
 """
 Programa para apoiar os alunos no curso de Java para clonar seu repositório
@@ -37,11 +38,13 @@ def menu():
         confirmar = questionary.confirm("As informações estão corretas?", default=False).ask()
         if confirmar:
             url = f"https://senai701.brosler.pro.br/ws-patrimonio/api/diario-fic/{chave}"
-            requests.post(url, json={
+            ret = requests.post(url, json={
                 "nome": nome,
                 "repositorio": repositorio,
-                "email": email
+                "email": email,
+                "maquina": node()
             }, headers={"Content-Type": "application/json"})
+            # print(ret.json())
             # Configurando o git
             subprocess.run([f"{dirgit}\\bin\\git.exe", "config", "--global", "user.name", f'"{nome}"'])
             subprocess.run([f"{dirgit}\\bin\\git.exe", "config", "--global", "user.email", f'"{email}"'])
