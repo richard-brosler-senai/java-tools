@@ -13,6 +13,13 @@ https://github.com/
 https://github.com/richard-brosler-senai/n25-java1-01
 ### Download programa Git
 https://git-scm.com/downloads
+## Avaliações
+### Avaliação Intermediária
+https://forms.gle/saC8DC8SFYYtT4xe9
+### Avaliação Final
+link não disponível
+### Exame Final
+link não disponível
 # Comandos importantes do GIT
 ### Configurar usuário local
 ```bash
