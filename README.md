@@ -15,7 +15,7 @@ https://github.com/richard-brosler-senai/n25-java1-01
 https://git-scm.com/downloads
 ## Avaliações
 ### Avaliação Intermediária
-<a href="https://forms.gle/saC8DC8SFYYtT4xe9" target="_blank">Avaliação Intermediária Disponível</a>
+<a href="https://forms.gle/saC8DC8SFYYtT4xe9" target="_blank" rel="noopener">Avaliação Intermediária Disponível</a>
 ### Avaliação Final
 link não disponível
 ### Exame Final
