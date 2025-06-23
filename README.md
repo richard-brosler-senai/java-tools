@@ -17,9 +17,7 @@ https://git-scm.com/downloads
 ### Avaliação Seções 2 e 3
 <a href="https://forms.gle/saC8DC8SFYYtT4xe9" target="_blank" rel="noopener">Avaliação Intermediária Disponível</a>
 ### Avaliação Seções 4,5,6 e 7
-link não disponível
-### Exame Final
-link não disponível
+<a href="https://forms.gle/vtMhB21jmdt4AD647" target="_blank" rel="noopener">Avaliação Seções 4,5,6 e 7 Disponível</a>
 # Comandos importantes do GIT
 ### Configurar usuário local
 ```bash
