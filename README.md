@@ -27,31 +27,31 @@ git config --global user.email "seu.email@dominio.com.br"
 ### Clonar um repositório
 Na pasta (C:\Users\Aluno\Documents\) efetuar o comando abaixo:
 ```bash
-git clone <endereço do repositório.git> n25-java1-01
+git clone <endereço do repositório.git> n25-java2-01
 ```
 ### Baixar alterações do Servidor Git para o local
-Na pasta do Repositório (C:\Users\Aluno\Documents\n25-java1-01) efetuar o comando abaixo:
+Na pasta do Repositório (C:\Users\Aluno\Documents\n25-java2-01) efetuar o comando abaixo:
 ```bash
 git pull
 ```
 ### Adicionar itens ao versionamento
-Na pasta do Repositório (C:\Users\Aluno\Documents\n25-java1-01) efetuar o comando abaixo:
+Na pasta do Repositório (C:\Users\Aluno\Documents\n25-java2-01) efetuar o comando abaixo:
 ```bash
 git add .
 ```
 ### Fechar pacote de versionamento
-Na pasta do Repositório (C:\Users\Aluno\Documents\n25-java1-01) efetuar o comando abaixo:
+Na pasta do Repositório (C:\Users\Aluno\Documents\n25-java2-01) efetuar o comando abaixo:
 ```bash
 git commit -m "Colocar um comentário sobre a versão"
 ```
 ### Subir alterações do local para o Servidor Git
-Na pasta do Repositório (C:\Users\Aluno\Documents\n25-java1-01) efetuar o comando abaixo:
+Na pasta do Repositório (C:\Users\Aluno\Documents\n25-java2-01) efetuar o comando abaixo:
 ```bash
 git push
 ```
 # Sequência diária da nossa aula:
 * Configurar o <a href="#configurar-usuário-local">`usuário local do git`</a> e o <a href="#configurar-e-mail-do-usuário-local">`email do usuário local do git`</a> **no início da aula**
-* Efetuar o <a href="#clonar-um-repositório">`clone do seu repositório`</a> para a pasta C:\Users\Aluno\Documents\n25-java1-01 **no início da aula**
-* Trabalhar os conteúdos dentro da pasta **C:\Users\Aluno\Documents\n25-java1-01**
+* Efetuar o <a href="#clonar-um-repositório">`clone do seu repositório`</a> para a pasta C:\Users\Aluno\Documents\n25-java2-01 **no início da aula**
+* Trabalhar os conteúdos dentro da pasta **C:\Users\Aluno\Documents\n25-java2-01**
 * **Antes do término da aula**, ou **ao término de cada lição** <a href="#adicionar-itens-ao-versionamento">`Adicionar itens ao versionamento`</a>, <a href="#fechar-pacote-de-versionamento">`Fechar o pacote de versionamento`</a> e <a href="#subir-alterações-do-local-para-o-servidor-git">`Subir alterações do local para o Servidor Git`</a>
 
