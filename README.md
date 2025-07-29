@@ -10,14 +10,11 @@ https://academy.oracle.com/ opção Student Hub
 ### Github
 https://github.com/
 ### Repositório do projeto do professor
-https://github.com/richard-brosler-senai/n25-java1-01
+https://github.com/richard-brosler-senai/n25-java2-01
 ### Download programa Git
 https://git-scm.com/downloads
 ## Avaliações
-### Avaliação Seções 2 e 3
-<a href="https://forms.gle/saC8DC8SFYYtT4xe9" target="_blank" rel="noopener">Avaliação Intermediária Disponível</a>
-### Avaliação Seções 4,5,6 e 7
-<a href="https://forms.gle/vtMhB21jmdt4AD647" target="_blank" rel="noopener">Avaliação Seções 4,5,6 e 7 Disponível</a>
+Em breve!!!
 # Comandos importantes do GIT
 ### Configurar usuário local
 ```bash
