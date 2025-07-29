@@ -14,7 +14,7 @@ def validar_email_robusto(texto):
 def menu():
     chave = os.environ.get('CHAVEAPP')
     senha = os.environ.get('SENHAAPP')
-    turma = "n25-java1-01"
+    turma = "n25-java2-01"
     dirgit= f"{os.environ.get('APPDATA')}\\..\\Local\\Programs\\Git"
     if not os.path.exists(dirgit):
         dirgit = f"{os.environ.get('ProgramFiles')}\\git"
@@ -52,7 +52,7 @@ def menu():
             subprocess.run([f"{dirgit}\\bin\\git.exe", "clone", repositorio, diretorio])
     # Verificando se o arquivo subir.bat existe
     if not os.path.exists(diretorio + "\\subir.bat"):
-        with urlopen("https://raw.githubusercontent.com/richard-brosler-senai/java-tools/refs/heads/master/subir.bat") as response:
+        with urlopen("https://raw.githubusercontent.com/richard-brosler-senai/java-tools/refs/heads/master/subir2.bat") as response:
             conteudo = response.read().decode('utf-8')
             conteudo = conteudo.replace("\r\n", "\n")
             conteudo = conteudo.replace("\n", "\r\n")
