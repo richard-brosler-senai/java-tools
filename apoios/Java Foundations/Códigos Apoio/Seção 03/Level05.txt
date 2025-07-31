@@ -1,0 +1,20 @@
+Ball 210 660 N
+
+Goal 672 420
+
+BlueBumper 120 450
+BlueBumper 420 450
+
+//RedBumper 420 570
+RedBumper 420 210
+RedBumper 720 210
+
+LevelGeometry 150 0 BigTriangle NW
+LevelGeometry 780 0 BigTriangle NE
+
+LevelGeometry 630 480 BigSquare S
+LevelGeometry 630 600 BigSquare S
+
+No RotationWall
+No Fan
+No Blade
