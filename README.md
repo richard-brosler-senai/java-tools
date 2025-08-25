@@ -11,6 +11,8 @@ https://academy.oracle.com/ opção Student Hub
 https://github.com/
 ### Repositório do projeto do professor
 https://github.com/richard-brosler-senai/n25-java2-01
+### Aplicativo para SQLite
+https://github.com/pawelsalawa/sqlitestudio/releases  
 ### Download programa Git
 https://git-scm.com/downloads
 ## Avaliações
