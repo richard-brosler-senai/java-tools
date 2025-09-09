@@ -18,7 +18,11 @@ https://git-scm.com/downloads
 ### Estilos de botões
 http://fxexperience.com/2011/12/styling-fx-buttons-with-css/
 ## Avaliações
-Em breve!!!
+
+#### Avaliação final
+**ATENÇÃO - Data Limite de Respostas será 13-09-2025 23:59:59**  
+
+https://forms.gle/de53jB3u4Cu5nGMY6
 # Comandos importantes do GIT
 ### Configurar usuário local
 ```bash
